@@ -43,6 +43,50 @@
       "cost": 0,
       "services": [],
       "id": 4
+    },
+    {
+      "name": "teste projeto 3",
+      "budget": "6000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "name": "dasd",
+      "budget": "5000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "name": "teste",
+      "budget": "60000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 7
+    },
+    {
+      "name": "teste 33",
+      "budget": "400000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 8
     }
   ],
   "categories": [
