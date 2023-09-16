@@ -10,7 +10,6 @@ function NewProject() {
     const navigate = useNavigate()
     function createPost(project) {
         //initialize cost and services
-
         project.cost = 0
         project.services = []
 
@@ -28,9 +27,7 @@ function NewProject() {
             navigate('/projects', {state:{message: 'Projeto criado com sucesso!'}})
         })
         .catch((err) => console.log(err))
-
     }
-
     return (
         <div className={styles.newproject_container}>
             <h1>Criar Projeto</h1>
