@@ -5,6 +5,7 @@ import styles from './Message.module.css'
 function Message({ type, msg }) {
     const [visible, setVisible] = useState(false)
 
+    
     useEffect(() => {
 
         if(!msg) {

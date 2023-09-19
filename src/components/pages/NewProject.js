@@ -28,6 +28,7 @@ function NewProject() {
         })
         .catch((err) => console.log(err))
     }
+    
     return (
         <div className={styles.newproject_container}>
             <h1>Criar Projeto</h1>
